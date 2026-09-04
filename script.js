@@ -5,3 +5,8 @@ const fortune3 =
   "Great success awaits you... right after you finish that JavaScript lesson.";
 const fortune4 = "You will become rich someday.";
 const fortune5 = "Beware! A bug is hiding in your code.";
+
+const min = 1;
+const max = 5;
+
+const randomNumber = Math.Floor(Math.random() * (max - min + 1) + min);
