@@ -12,7 +12,7 @@ const max = 5;
 const randomNumber = Math.floor(Math.random() * (max - min + 1) + min); //Logic to generate a random number between 1 and 5
 
 let selectedFortune;
-
+// Logic to select a fortune based on the random number
 if (randomNumber === 1) {
   selectedFortune = fortune1;
 } else if (randomNumber === 2) {
